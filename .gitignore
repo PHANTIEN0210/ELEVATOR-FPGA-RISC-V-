@@ -1,0 +1,16 @@
+# Gowin implementation output
+impl/
+
+# ModelSim working files
+sim/work/
+sim/*.wlf
+sim/*.vstf
+sim/transcript
+
+# RISC-V build artifacts
+RISC-V/*.o
+RISC-V/*.dis
+
+# Windows
+Thumbs.db
+desktop.ini

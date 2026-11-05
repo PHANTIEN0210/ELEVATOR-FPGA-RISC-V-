@@ -1,0 +1,52 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/button_mmio.v" type="file.verilog" enable="1"/>
+        <File path="src/buzzer_mmio.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_alu.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_branch_predict.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_compressed_decoder.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_core.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_counter.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_cs_registers.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_csr.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_decoder.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_dummy_instr.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_ex_block.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_fetch_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_icache.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_id_stage.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_if_stage.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_load_store_unit.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_lockstep.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_multdiv_fast.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_multdiv_slow.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_pkg.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_pmp.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_prefetch_buffer.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_register_file_ff.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_register_file_fpga.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_register_file_latch.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_system_top.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_top.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_tracer_pkg.v" type="file.verilog" enable="1"/>
+        <File path="src/ibex_wb_stage.v" type="file.verilog" enable="1"/>
+        <File path="src/led_7_seg_mmio.v" type="file.verilog" enable="1"/>
+        <File path="src/prim_buf.v" type="file.verilog" enable="1"/>
+        <File path="src/prim_clock_gating.v" type="file.verilog" enable="1"/>
+        <File path="src/servo_mmio.v" type="file.verilog" enable="1"/>
+        <File path="src/stepper_mmio.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_mmio.v" type="file.verilog" enable="1"/>
+        <File path="src/hts_pin..cst" type="file.cst" enable="1"/>
+        <File path="src/timing.sdc" type="file.sdc" enable="1"/>
+        <File path="src/firmware_bank0.hex" type="file.other" enable="1"/>
+        <File path="src/firmware_bank1.hex" type="file.other" enable="1"/>
+        <File path="src/firmware_bank2.hex" type="file.other" enable="1"/>
+        <File path="src/firmware_bank3.hex" type="file.other" enable="1"/>
+    </FileList>
+</Project>
